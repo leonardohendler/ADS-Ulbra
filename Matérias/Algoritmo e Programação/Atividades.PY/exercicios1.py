@@ -82,6 +82,7 @@
 # print(f'O valor do produto com desconto ficou: R$ {resultado_da_conta}')
 
 #  12. Faça um algoritmo que calcule a distância percorrida por um veículo com base em sua
+
 # velocidade e tempo de percurso informados pelo usuário e imprima o resultado.
 # velocidade_do_carro= float(input("Informe a velocidade do carro\n"))
 # tempo_de_percurso= float (input("Informe quanto tempo a viagem demorou\n"))
@@ -90,6 +91,7 @@
 
 #  13. Faça um algoritmo que calcule o valor final de uma aplicação financeira com base em seu
 # valor inicial, taxa de juros e tempo de aplicação informados pelo usuário e imprima o resultado.
+    
 # valor_inicial= float(input("Valor aplicado:\n"))
 # taxa_de_juros= float(input("Valor da taxa de juros:\n"))
 # tempo_de_aplicação= float(input("Informar o tempo de aplicação:\n"))
