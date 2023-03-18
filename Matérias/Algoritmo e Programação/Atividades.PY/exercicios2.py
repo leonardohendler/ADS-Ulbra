@@ -53,9 +53,9 @@
 
 # 8. Um triângulo equilátero tem lado de medida 6cm. Calcule a sua área.
 
-# lado_do_triangulo= 6
-# média_do_triangulo= lado_do_triangulo*3
-# print(f'A média do triangulo equilatero é: {média_do_triangulo}')
+# lado_do_triangulo= int (input("Digite o valor do lado\n"))
+# area_do_triangulo= ((lado_do_triangulo**2)*(0.5*3))/4
+# print(f'A média do triangulo equilatero é: {area_do_triangulo}')
 
 # 9. Um homem percorreu 10km em uma hora e meia. Qual é a sua velocidade média em km/h?
 
@@ -127,3 +127,28 @@
 # saldo_final= saldo_conta -(conta1+conta2)
 # print(f'O saldo em conta restante é: R$ {saldo_final} reais')
 
+
+# exercicio extra:
+# Faça um algoritmo que o usuario coloca o valor, e ele calcula quantas unidades de notas ou moedas.
+
+
+# numero= float(input("Informo o valor em reais:\n"))
+# nota_100= int(numero/100)
+# numero= numero % 100
+# nota_50= int(numero/50)
+# numero=numero % 50
+# nota_20=int(numero/20)
+# numero= numero % 20
+# nota_10= int(numero/10)
+# numero= numero % 10
+# nota_5= int(numero/5)
+# numero= numero % 5
+# nota_2= int(numero/2)
+# numero= numero % 2
+
+# print(f'A quantidade de notas de 100 necessarias são: {nota_100}')
+# print(f'A quantidade de notas de 50 necessarias são: {nota_50}')
+# print(f'A quantidade de notas de 20 necessarias são: {nota_20}')
+# print(f'A quantidade de notas de 10 necessarias são: {nota_10}')
+# print(f'A quantidade de notas de 5 necessarias são: {nota_5}')
+# print(f'A quantidade de notas de 2 necessarias são: {nota_2}')
