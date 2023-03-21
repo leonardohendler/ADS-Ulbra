@@ -16,20 +16,21 @@ padrão do css, sempre usar para fazer o site.
     clear: both;
 }
 .topo{
-    height: 100px;
+    height: 60px;
     background-color: rgb(210, 214, 214);
     margin-top: 10px;
     color: black;
-    font-size: 24px;
+    font-size: 15px;
     text-align: center;
     border: solid;
     padding: 1%;
     margin-bottom: -4px;
+    font-family: 'Times New Roman', Times, serif;
 
 
 }
 .topo span{ 
-    margin: 8px 8px;
+    margin: 10px 10px;
     padding-top: 10px;
 
 }
@@ -39,7 +40,7 @@ padrão do css, sempre usar para fazer o site.
 }
 
 .perfil{
-    height: 200px;
+    height: 250px;
     border: solid;
     margin-bottom: -4px;
 
@@ -52,10 +53,11 @@ padrão do css, sempre usar para fazer o site.
 .dados{
     width: 80%;
     float: left;
-    padding-right: 20px;
-    margin-top: 10px;
+    padding-right: 15px;
+    margin-top: 5px;
     text-align: justify;
     padding-left: 1%;
+    font-size: 18px;
 
 }
 
@@ -81,7 +83,9 @@ padrão do css, sempre usar para fazer o site.
 .experiencias{
     width: 60%;
     float: left;
-   border: solid;
+    border: solid;
+    height: 253px;
+    
 
 }
 
