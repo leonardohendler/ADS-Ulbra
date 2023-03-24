@@ -9,22 +9,20 @@ padrão do css, sempre usar para fazer o site.
 
 .pai{
     width: 60%;
-    background-color: rgb(210, 214, 214);
+    border: solid;
 }
 
 .limpar {
     clear: both;
 }
 .topo{
-    height: 60px;
-    background-color: rgb(210, 214, 214);
+    height: 80px;
     margin-top: 10px;
     color: black;
-    font-size: 15px;
+    font-size: 18px;
     text-align: center;
-    border: solid;
+    border-bottom: solid;
     padding: 1%;
-    margin-bottom: -4px;
     font-family: 'Times New Roman', Times, serif;
 
 
@@ -57,7 +55,6 @@ padrão do css, sempre usar para fazer o site.
     margin-top: 5px;
     text-align: justify;
     padding-left: 1%;
-    font-size: 18px;
 
 }
 
@@ -84,7 +81,8 @@ padrão do css, sempre usar para fazer o site.
     width: 60%;
     float: left;
     border: solid;
-    height: 253px;
+    height: auto;
+    padding-top: 20px;
     
 
 }
@@ -101,19 +99,21 @@ padrão do css, sempre usar para fazer o site.
 .tech{
     width: 40%;
     float: left;  
-    border: solid;
     margin-left: -4px;
+    padding-top: 20px;
     
 }
 
 .tech h2{
     text-decoration: underline ;
+    text-align: center;
 }
 .tech p{
     width: 50%;
     float: left;
     clear: both;
     margin-bottom: 5px;
+    text-align: center;
 
 }
 .circulo{
@@ -125,8 +125,27 @@ padrão do css, sempre usar para fazer o site.
     float: left;
 }
 
+.educacao{
+    width: 100%;
+    float: left;
+    border-bottom: solid;
+    
+
+}
+.educacao h2{
+    text-decoration: underline;
+    padding-bottom: 10px;
+    text-align: justify;
+    
+}
+
+.educacao li {
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+}
 .principal {
-    margin-top: -4px;
+    border: solid;
     
 
 }
