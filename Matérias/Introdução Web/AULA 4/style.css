@@ -9,7 +9,10 @@ padrão do css, sempre usar para fazer o site.
 
 .pai{
     width: 60%;
-    border: solid;
+    border-left: solid;
+    border-right: solid;
+    
+    
 }
 
 .limpar {
@@ -21,10 +24,11 @@ padrão do css, sempre usar para fazer o site.
     color: black;
     font-size: 18px;
     text-align: center;
+    border-top: solid;
     border-bottom: solid;
     padding: 1%;
     font-family: 'Times New Roman', Times, serif;
-
+    background-color: rgb(167, 179, 179);
 
 }
 .topo span{ 
@@ -39,7 +43,6 @@ padrão do css, sempre usar para fazer o site.
 
 .perfil{
     height: 250px;
-    border: solid;
     margin-bottom: -4px;
 
 
@@ -53,8 +56,9 @@ padrão do css, sempre usar para fazer o site.
     float: left;
     padding-right: 15px;
     margin-top: 5px;
-    text-align: justify;
+    text-align:start;
     padding-left: 1%;
+    
 
 }
 
@@ -80,7 +84,6 @@ padrão do css, sempre usar para fazer o site.
 .experiencias{
     width: 60%;
     float: left;
-    border: solid;
     height: auto;
     padding-top: 20px;
     
@@ -98,7 +101,7 @@ padrão do css, sempre usar para fazer o site.
 
 .tech{
     width: 40%;
-    float: left;  
+    float: left; 
     margin-left: -4px;
     padding-top: 20px;
     
@@ -106,14 +109,14 @@ padrão do css, sempre usar para fazer o site.
 
 .tech h2{
     text-decoration: underline ;
-    text-align: center;
+    
 }
 .tech p{
     width: 50%;
     float: left;
     clear: both;
     margin-bottom: 5px;
-    text-align: center;
+    
 
 }
 .circulo{
@@ -145,7 +148,7 @@ padrão do css, sempre usar para fazer o site.
     padding-bottom: 10px;
 }
 .principal {
-    border: solid;
+    
     
 
 }
