@@ -152,3 +152,57 @@
 # print(f'A quantidade de notas de 10 necessarias são: {nota_10}')
 # print(f'A quantidade de notas de 5 necessarias são: {nota_5}')
 # print(f'A quantidade de notas de 2 necessarias são: {nota_2}')
+
+# # faça um algoritmo que recebe um numero inteiro e apresente a tabuada desse numero:
+
+# numero= int(input("Digite um valor para saber a sua tabuada \n"))
+
+# for i in range(1,11):
+#         print(f'A tabudada do {numero} é:{i*numero}')
+
+
+# _________________________________________________________________________________
+
+# voce esta desenvolvendo um programa para calcular a distancia percorrida por um objeto em um movimento uniformemente acelerado. o Usuario deve informar a velocidade inicial, a aceleração e o tempo de deslocamento. Escreva um algoritmo que calcule e imprime a distancia percorrida pelo objeto.
+
+# velocidade_inicial= float(input("Insira a velocidade inicial\n"))
+# aceleracao= float(input("Insira a aceleração do objeto \n"))
+# tempo= float(input("Insira o tempo de deslocamento em horas \n"))
+
+# calculo = velocidade_inicial * tempo + (aceleracao* (tempo**2))/2
+# print(f'A distancia percorrida é {calculo}km')
+
+
+# _________________________________________________________________________________
+# numero= int(input("Digite um valor"))
+
+# if numero == 0:
+#     print("O numero digitado é ZERO")
+# elif numero % 2 == 0:
+#     print("O numero digitado é par")
+# else:
+#     print ("O numero é impar")
+
+
+# nome_paciente= (input("Insira o seu nome:\n"))
+# peso= float(input("Insira o seu peso \n"))
+# altura= float(input("Insira a sua altura \n"))
+# calculo_imc= peso/(altura**2)
+
+# if calculo_imc < 18.5:
+#     print (f'O paciente {nome_paciente}está classificado como abaixo do peso.')
+
+# elif calculo_imc >=18.5 and calculo_imc <24.9:
+#     print(f'O paciente {nome_paciente} está classificado com peso normal.')
+
+# elif calculo_imc >=25.00 and calculo_imc <29.9: 
+#     print(f'O paciente {nome_paciente} está classificado com excesso de peso.')
+
+# elif calculo_imc >=30 and calculo_imc <34.9:
+#     print(f'Paciente {nome_paciente} está classificado com obesidade classe I.')
+
+# elif calculo_imc >=35 and calculo_imc <39.9:
+#     print(f'O paciente {nome_paciente} está classificado com obesidade classe II.')
+    
+# else:
+#     print(f'O paciente {nome_paciente} está classificado com obesidade classe III.')
