@@ -28,6 +28,7 @@ padrão do css, sempre usar para fazer o site.
     padding: 1%;
     font-family: 'Times New Roman', Times, serif;
     background-color: rgb(167, 179, 179);
+    
 }
 
 .topo span{ 
@@ -38,6 +39,8 @@ padrão do css, sempre usar para fazer o site.
 .topo img{
     height: 25px;
     width: 25px;
+    text-decoration:none;
+    
 }
 
 .perfil{
