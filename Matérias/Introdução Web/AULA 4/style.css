@@ -11,6 +11,7 @@ padrão do css, sempre usar para fazer o site.
     width: 60%;
     border-left: solid;
     border-right: solid; 
+    font-size: 18px;
 }
 
 .limpar {
@@ -21,7 +22,6 @@ padrão do css, sempre usar para fazer o site.
     height: 80px;
     margin-top: 10px;
     color: black;
-    font-size: 18px;
     text-align: center;
     border-top: solid;
     border-bottom: solid;
@@ -52,6 +52,7 @@ padrão do css, sempre usar para fazer o site.
     margin-top: 5px;
     text-align:start;
     padding-left: 1%;
+   
 }
 
 .foto{
