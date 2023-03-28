@@ -1,0 +1,155 @@
+*{margin: 0 auto;
+box-sizing:  border-box;
+/*  Essa propriedade border-box, serve p/ não deixar a caixa crescer,
+padrão do css, sempre usar para fazer o site.
+**/
+}
+
+ 
+
+.pai{
+    width: 60%;
+    border-left: solid;
+    border-right: solid; 
+    font-size: 18px;
+}
+
+.limpar {
+    clear: both;
+}
+
+.topo{
+    height: 80px;
+    margin-top: 10px;
+    color: black;
+    text-align: center;
+    border-top: solid;
+    border-bottom: solid;
+    padding: 1%;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: rgb(167, 179, 179);
+    
+}
+
+.topo span{ 
+    margin: 10px 10px;
+    padding-top: 10px;
+
+}
+.topo img{
+    height: 25px;
+    width: 25px;
+    text-decoration:none;
+    
+}
+
+.perfil{
+    height: 250px;
+    margin-bottom: -4px;
+}
+
+.dados{
+    width: 80%;
+    float: left;
+    padding-right: 15px;
+    margin-top: 5px;
+    text-align:start;
+    padding-left: 20px;
+   
+}
+
+.foto{
+    width: 20%;
+    float: right;
+    padding-left: 1%;
+    
+}
+.foto img {
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    margin-top: 20px;
+}
+
+
+.experiencias{
+    width: 60%;
+    float: left;
+    height: auto;
+    padding-top: 20px;
+     
+}
+
+.experiencias h2{
+    text-decoration: underline;
+    padding-left: 20px;
+}
+.experiencias h3{
+    padding-left: 20px;
+}
+
+.experiencias p {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.tech{
+    width: 40%;
+    float: left; 
+    margin-left: -4px;
+    padding-top: 20px;   
+}
+
+.tech h2{
+    text-decoration: underline ;
+    
+}
+
+.tech p{
+    width: 50%;
+    float: left;
+    clear: both;
+    margin-bottom: 5px;
+}
+
+.circulo{
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: black;
+    margin-right: 5px;
+    float: left;
+}
+
+.educacao{
+    width: 100%;
+    float: left;
+    border-bottom: solid;
+}
+
+.educacao h2{
+    text-decoration: underline;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    
+
+}
+
+.educacao li {
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+}
+
+.tech ul {
+    padding-left: 20px;
+}
+
+
+
+
+
+
+
+
+
