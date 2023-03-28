@@ -29,17 +29,20 @@ padrão do css, sempre usar para fazer o site.
     font-family: 'Times New Roman', Times, serif;
     background-color: rgb(167, 179, 179);
     
+    
 }
 
 .topo span{ 
     margin: 10px 10px;
     padding-top: 10px;
+    text-decoration: none;
+    
 
 }
 .topo img{
     height: 25px;
     width: 25px;
-    text-decoration:none;
+    
     
 }
 
