@@ -54,7 +54,7 @@ padrão do css, sempre usar para fazer o site.
     padding-right: 15px;
     margin-top: 5px;
     text-align:start;
-    padding-left: 1%;
+    padding-left: 20px;
    
 }
 
@@ -76,15 +76,16 @@ padrão do css, sempre usar para fazer o site.
     width: 60%;
     float: left;
     height: auto;
-    padding-top: 20px;  
-}
-
-.experiencias h3{
-    padding-left: 20px;
+    padding-top: 20px;
+     
 }
 
 .experiencias h2{
     text-decoration: underline;
+    padding-left: 20px;
+}
+.experiencias h3{
+    padding-left: 20px;
 }
 
 .experiencias p {
@@ -129,7 +130,9 @@ padrão do css, sempre usar para fazer o site.
 .educacao h2{
     text-decoration: underline;
     padding-bottom: 10px;
-    text-align: justify;    
+    padding-left: 20px;
+    
+
 }
 
 .educacao li {
