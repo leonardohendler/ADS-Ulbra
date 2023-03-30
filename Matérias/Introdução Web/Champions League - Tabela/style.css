@@ -1,15 +1,62 @@
+*{margin: 0 auto;
+    box-sizing:  border-box;
+    /*  Essa propriedade border-box, serve p/ não deixar a caixa crescer,
+    padrão do css, sempre usar para fazer o site.
+    **/
+    }
+
+h2 {
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold
+    
+}
+
+h3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+    color: blue;    
+}
+
+h2,h3 {
+    background-color: #F1F3F4;
+
+}
+
+table {
+    font-family: Arial, Helvetica, sans-serif;
+      
+     
+     
+}
+
 h1{
     text-align: center;
     background-color: #162E58;        
     }
 
-img {
+
+    
+img  {
     width: 30px;
     height: 30px;
 }
 
 td, tr, th {
-    text-align: center;
+    text-align: center;    
+}
+
+.primeiro {
+    border-left: solid #4285F4;
+}
+
+.segundo {
+    border-left: solid #4285F4;
+}
+
+.terceiro {
+    border-left:solid  #FA7B17;
 }
 
 
