@@ -3,60 +3,119 @@
     /*  Essa propriedade border-box, serve p/ não deixar a caixa crescer,
     padrão do css, sempre usar para fazer o site.
     **/
+    font-family: Arial, Helvetica, sans-serif;
     }
 
-h2 {
-    font-size: 15px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: bold
+body{
+    background-color: rgb(230,230,230);
+}
+
+.header{
+    height: 100px;
+    background-color: #162E58;
+    color: white;   
+}
+
+.header h1{
+    font-size: 16px;
+    font-weight: normal;
+    padding: 10px;
     
 }
-
-h3{
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: bold;
-    font-size: 15px;
-    color: blue;    
-}
-
-h2,h3 {
-    background-color: #F1F3F4;
-
-}
-
-table {
-    font-family: Arial, Helvetica, sans-serif;
-      
-     
-     
-}
-
-h1{
+.header h2 {
     text-align: center;
-    background-color: #162E58;        
-    }
-
-
-    
-img  {
-    width: 30px;
-    height: 30px;
+    font-size: 16px;
+    font-weight: normal;
+    margin-top: 41px;
+    border-bottom: 3px solid white;
+    width: 100px;   
 }
 
-td, tr, th {
-    text-align: center;    
+.temporada {
+    font-size: 10px;
+    color: black; 
+    text-align: justify;  
+    width:50%; 
+    background-color: #F1F3F4;
+}
+
+h3 {
+    font-size: 14px;
+    color: #2c559b;
+}
+ 
+table,th, tr, td {
+    border-top:0.1px solid #70757a;
+    border-collapse: collapse;
+    text-align: center;
+    padding: 5px;  
+}
+
+.Tabela {
+    width: 50%;
+}
+table{
+    width: 100%;
+    font-size: 14px;
+    padding-top: 10px;
+    background-color: white ;
+}
+
+th {
+    font-weight: normal;
+    color: #70757a;
+}
+
+img  {
+    width: 24px;
+    height: 24px;
+    
 }
 
 .primeiro {
     border-left: solid #4285F4;
+    text-align: left;
 }
 
 .segundo {
     border-left: solid #4285F4;
+    text-align: left;
 }
 
 .terceiro {
     border-left:solid  #FA7B17;
+    text-align: left;
+}
+.quarto {
+    text-align: left;
+}
+
+.grupo{
+    color: black;
+    font-weight: bold;
+    font-size: 16px;   
+}
+
+.gols{
+    width: 100%;
+    background-color: white;
+    margin: 0 auto;
+}
+
+.gols h3{
+    background-color: #162E58;
+    color: white;
+}
+
+.gols img {
+    border-radius: 50%;
+    height: 26%;
+    width: 26%;
+}
+
+.gols td, th, tr {
+    text-align: left;
+    
 }
 
 
