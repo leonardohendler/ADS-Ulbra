@@ -14,24 +14,25 @@ body{
     height: 100px;
     background-color: #162E58;
     color: white;   
+    padding: 10px;
 }
 
 .header h1{
     font-size: 16px;
     font-weight: normal;
-    padding: 10px;
+    
     
 }
 .header h2 {
     text-align: center;
     font-size: 16px;
     font-weight: normal;
-    margin-top: 41px;
+    margin-top: 50px;
     border-bottom: 3px solid white;
     width: 100px;   
 }
 
-.temporada {
+.temporada{
     font-size: 10px;
     color: black; 
     text-align: justify;  
@@ -44,27 +45,36 @@ h3 {
     color: #2c559b;
 }
  
-table,th, tr, td {
-    border-top:0.1px solid #70757a;
-    border-collapse: collapse;
-    text-align: center;
-    padding: 5px;  
-}
 
-.Tabela {
+
+.tabela {
     width: 50%;
+    margin: 0 auto;
+    background-color: white;
 }
 table{
     width: 100%;
     font-size: 14px;
-    padding-top: 10px;
-    background-color: white ;
+    background-color: white ;    
+    border-collapse: collapse;
 }
 
-th {
-    font-weight: normal;
-    color: #70757a;
+th,td {
+    border-top:0.1px solid #70757a;
+    padding: 5px; 
+     
 }
+
+tr{
+    text-align: center;
+}
+
+th{
+    font-weight: normal; 
+    color: #70757a; 
+    border-top: none; 
+}
+
 
 img  {
     width: 24px;
@@ -93,7 +103,8 @@ img  {
 .grupo{
     color: black;
     font-weight: bold;
-    font-size: 16px;   
+    font-size: 16px;  
+    padding-top: 20px; 
 }
 
 .gols{
@@ -102,23 +113,25 @@ img  {
     margin: 0 auto;
 }
 
+
+
 .gols h3{
     background-color: #162E58;
     color: white;
+    height: 40%;
+    font-weight: normal;
+    padding: 10px;
 }
 
 .gols img {
     border-radius: 50%;
-    height: 26%;
-    width: 26%;
-}
-
-.gols td, th, tr {
-    text-align: left;
+    height: 36px;
+    width: 36px;
     
 }
 
 
 
-
-
+    
+    
+    
