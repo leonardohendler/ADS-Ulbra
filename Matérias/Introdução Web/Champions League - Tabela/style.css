@@ -61,7 +61,8 @@ table{
 
 th,td {
     border-top:0.1px solid #70757a;
-    padding: 5px; 
+    padding: 5px;
+    
      
 }
 
@@ -84,21 +85,19 @@ img  {
 
 .primeiro {
     border-left: solid #4285F4;
-    text-align: left;
+    
 }
 
 .segundo {
     border-left: solid #4285F4;
-    text-align: left;
+    
 }
 
 .terceiro {
     border-left:solid  #FA7B17;
-    text-align: left;
+    
 }
-.quarto {
-    text-align: left;
-}
+
 
 .grupo{
     color: black;
