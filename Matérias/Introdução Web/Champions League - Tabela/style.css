@@ -47,7 +47,7 @@ h3 {
  
 
 
-.tabela {
+.tabela, .gols, .cartoes {
     width: 50%;
     margin: 0 auto;
     background-color: white;
@@ -57,6 +57,7 @@ table{
     font-size: 14px;
     background-color: white ;    
     border-collapse: collapse;
+
 }
 
 th,td {
@@ -106,14 +107,6 @@ img  {
     padding-top: 20px; 
 }
 
-.gols{
-    width: 100%;
-    background-color: white;
-    margin: 0 auto;
-}
-
-
-
 .gols h3{
     background-color: #162E58;
     color: white;
@@ -128,6 +121,43 @@ img  {
     width: 36px;
     
 }
+
+.w30{ /*Criando uma classe para definir uma largura de 30 px*/
+    width: 30px;
+    }
+
+
+
+.cartoes h3{
+    background-color: #162E58;
+    color: white;
+    height: 40%;
+    font-weight: normal;
+    padding: 10px;
+    
+}
+
+.cartoes img {
+    border-radius:50%;
+    height: 36px;
+    width: 36px;
+}
+
+
+
+
+
+
+
+
+
+   
+
+
+
+
+
+
 
 
 
