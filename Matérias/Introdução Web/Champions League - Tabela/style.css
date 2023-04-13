@@ -8,6 +8,7 @@
 
 body{
     background-color: rgb(230,230,230);
+    
 }
 
 .header{
@@ -47,11 +48,12 @@ h3 {
  
 
 
-.tabela, .gols, .cartoes {
+.tabela, .gols , .cartoes {
     width: 50%;
     margin: 0 auto;
     background-color: white;
 }
+
 table{
     width: 100%;
     font-size: 14px;
@@ -63,6 +65,7 @@ table{
 th,td {
     border-top:0.1px solid #70757a;
     padding: 5px;
+    
     
      
 }
@@ -122,10 +125,6 @@ img  {
     
 }
 
-.w30{ /*Criando uma classe para definir uma largura de 30 px*/
-    width: 30px;
-    }
-
 
 
 .cartoes h3{
@@ -143,6 +142,10 @@ img  {
     width: 36px;
 }
 
+
+.w30{ /*Criando uma classe para definir uma largura de 30 px*/
+    width: 30px;
+    }
 
 
 
