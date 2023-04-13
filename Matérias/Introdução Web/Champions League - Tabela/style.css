@@ -37,7 +37,7 @@ body{
     font-size: 10px;
     color: black; 
     text-align: justify;  
-    width:50%; 
+    width:60%; 
     background-color: #F1F3F4;
 }
 
@@ -49,7 +49,7 @@ h3 {
 
 
 .tabela, .gols , .cartoes {
-    width: 50%;
+    width: 60%;  /** usando 60% do total da pagina**/
     margin: 0 auto;
     background-color: white;
 }
