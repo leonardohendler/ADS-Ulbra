@@ -185,3 +185,27 @@
 #     print(f"Suas tentativas acabaram. O número correto era {numero_correto}.")
 
 # -----------------------------------------------------------------------------------
+
+
+
+# while True:
+#     num= float(input("Digite um numero:\n"))
+#     if num> 0:
+#         print("O numero é positivo")
+#     elif num <0:
+#         print("O numero é negativo")
+#     else:
+#         print("O numero é zero")    
+
+
+
+
+
+
+# letra= input("Digite uma letra:\n")
+# letras_maisculas= ['a','e','i','o','u']
+
+# if letra in letras_maisculas:
+#     print("A letra é vogal")
+# else:
+#     print("A letra é consoante")
