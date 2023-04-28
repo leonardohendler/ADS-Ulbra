@@ -1,0 +1,47 @@
+*{
+    box-sizing: border-box;
+}
+header{
+    background-color: darkgray;
+    height: 15vh;
+    color: white;
+}
+main{
+    height: 70vh;
+}
+nav{
+    width: 10%;
+    height: 100%;
+    float: left;
+    background-color: black;
+    color: white;
+
+}
+
+section{
+    width: 80%;
+    height: 100%;
+    float: left;
+    background-color: white;
+}
+article{
+    height: 33.3%;
+    border: 2px solid;
+    
+}
+aside{
+    width: 10%;
+    height: 100%;
+    float: left;
+    background-color:blue;
+    color: white;
+}
+
+.clear {
+    clear: both;
+}
+footer{
+    height: 15vh;
+    background-color: darkgray
+    
+}
