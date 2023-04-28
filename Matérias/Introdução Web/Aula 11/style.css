@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+}
+body{
+    background-color: black;
+}
+@media screen and (max-width:800px){
+    body{
+        background-color: blue;
+    }    
+}
+@media screen and (max-width:450px) {
+    body{
+        background-color: yellow;
+    }
+}
+
+.container {
+    display: flex;
+    /* flex-direction: column;  estiliza em coluna as caixas  */
+    flex-direction: row;  /**estiliza em linha horizontal as caixas**/
+    justify-content: center;
+    align-items: center;
+    /* flex-wrap: wrap;  quebra as caixas de acordo com o tamanho da tela * */
+    
+
+}
+.box{
+    width: 350px;
+    height: 350px;
+    min-width: 320px; /** minimo 320 de largura, nao deixa diminuir mais que isso**/
+    margin: 10px;
+    background-color: red;
+    color: white;
+    font-size: 40px;
+    display: flex;
+    justify-content: center; /** conteudo na caixa centraliza sentido horizontal **/
+    align-items: center; /** conteudo na caixa centraliza sentido vertical **/
+}
+
+.box2 {
+    height: 300px;
+    width: 100px;
+    max-width: 800px;
+    background-color: red;
+    margin: 5px;
+    color: white;
+    font-size: 40px;
+    display: flex;
+    justify-content: center; /** conteudo na caixa centraliza sentido horizontal **/
+    align-items: center; /** conteudo na caixa centraliza sentido vertical **/
+
+}
