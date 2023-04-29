@@ -209,3 +209,57 @@
 #     print("A letra é vogal")
 # else:
 #     print("A letra é consoante")
+
+
+
+
+
+
+# Crie um algoritmo capaz de ler dois valores e imprimir uma das três mensagens a seguir:
+# ‘Números iguais’, caso os números sejam iguais
+# ‘Primeiro é maior’, caso o primeiro seja maior que o segundo;
+# ‘Segundo maior’, caso o segundo seja maior que o primeiro.
+
+# numero1= float(input("Digite um numero:\n"))
+# numero2= float(input("Digite um numero:\n"))
+
+# if numero1 == numero2:
+#     print("Numeros iguais")
+# elif numero1 > numero2:
+#     print("Primeiro é maior")    
+# else:
+#     print("Segundo maior")
+
+
+"""Crie um algoritmo que receba o nome, sexo, idade e tempo de trabalho (contribuição).
+Com base nos seguintes requisitos para aposentadoria: 
+Mulheres - 30 anos de contribuição e 55 anos de idade
+Homens - 35 anos de contribuição e 60 anos
+Diga se as pessoas consultadas podem ou não requerer a aposentadoria.
+Armazene as informações de quantas pessoas foram consultadas, por exemplo: esta é a consulta número XX.
+Necessário MENU com interface para usuário (no terminal, não é tela gráfica!)."""
+
+while True:
+
+    print("__________________________________________________")
+    print("Digite a opção deseja: 1 - FEMININO | 2- MASCULINO")
+
+    sexo= (input("Informe seu sexo\n"))
+    nome= (input("Informe seu nome\n"))
+    idade= (input("Informe sua idade\n"))
+    tempo_trabalho= (input("Informe seu tempo de trabalho\n"))
+    
+
+    idade_desejada1= '55'
+    tempo_trabalho_desejado1= '30'
+
+    idade_desejada2= '60'
+    tempo_trabalho_desejado2= '35'
+
+    if sexo == '1' and (idade >= idade_desejada1) and (tempo_trabalho >= tempo_trabalho_desejado1):
+        print(f"Aposentadoria disponivel Sr(a) {nome}")
+    elif sexo == '2'and (idade >= idade_desejada2) and (tempo_trabalho >= tempo_trabalho_desejado2):
+        print(f"Aposentadoria disponivel Sr(a) {nome}")
+    else:
+        print("Aposentadoria não disponivel no momento")
+        
