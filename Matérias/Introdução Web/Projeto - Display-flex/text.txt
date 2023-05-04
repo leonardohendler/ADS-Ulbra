@@ -1,0 +1,23 @@
+Nessa atividade  será utilizado o projeto portfólio como base. Deverá respeitar as regras de acordo com o tamanho das telas (responsividade).
+
+Portfólio com três projetos:
+Desktop
+Header com título à esquerda e navegação à direita.
+Itens da lista de navegação lado a lado.
+Sessões com no máximo 1000px de largura.
+Sessão sobre mim, imagem e texto lado a lado.
+Projetos alinhados lado a lado.
+Itens do footer alinhados lado a lado e centralizado.
+Tablet (800px)
+Itens de Navegação centralizados abaixo do título. 
+Sessão sobre mim, texto abaixo da imagem (ambos centralizados).
+Um projeto abaixo do outro (centralizados).
+Smartphone (450px)
+Itens do footer alinhados um abaixo do outro.
+Tamanho da fonte 20% menor.
+
+Para essa atividade você deverá incluir mais três projetos ao portfólio, manter as formatações anterior e incluir:
+Largura mínima de imagem de 290px.
+Mostrar três projetos por linha quando desktop.
+Aplicar quebra de linha e manter centralizado quando reduzir a largura.
+Inserir um efeito nas imagens ao passar o mouse por cima (hover).
