@@ -12,28 +12,47 @@
 # 3. Escreva um programa que receba uma lista de números do usuário e calcule a
 # soma de todos os números presentes na lista.
 
-# lista = [int(input("Digite um número: "))] + [int(input("Digite outro número: ")) for i in range(4)]
-# soma = sum(lista) 
-# print(f"A média dos números da lista é {soma}.")
+# lista=[]
+# numero= input("Digite um numero ou 'sair' para encerrar:\n ")
+# while numero!= "sair":
+#     lista.append(int(numero))
+#     numero=input("Digite outro numero ou 'sair' para encerrar:\n ")
+
+# total_itens = len(lista)
+# itens_lista= ",".join(str(item) for item in lista)
+# soma= sum(lista)
+
+# print(f"total de itens: {total_itens}")
+# print(f"Itens na lista: {itens_lista}")
+# print(f"A soma dos numeros da lista é:{soma}")
 
 # 4. Escreva um programa que receba uma lista de números do usuário e calcule a
 # média de todos os números presentes na lista.
 
-# lista = [int(input("Digite um número: "))] + [int(input("Digite outro número: ")) for i in range(4)]
-# media = sum(lista) / len(lista)
-# print(f"A média dos números da lista é {media}.")
+# lista=[]
+# numero= input("Digite um numero ou 'sair' para encerrar:")
+# while numero!= "sair":
+#     lista.append(int(numero))
+#     numero=input("Digite outro numero ou 'sair' para encerrar: ")
 
+# total_itens = len(lista)
+# itens_lista= ",".join(str(item) for item in lista)
+# media= sum(lista)/total_itens
+
+# print(f"total de itens: {total_itens}")
+# print(f"Itens na lista: {itens_lista}")
+# print(f"Média dos numeros da lista:{media}")
 
 # 5. Escreva um programa que receba uma lista de números do usuário e imprima
 # apenas os números pares presentes na lista.
 
-lista=[int(input("Digite um numero\n"))] + [int(input("Digite outro numero\n")) for i in range(3)]
+# lista=[int(input("Digite um numero\n"))] + [int(input("Digite outro numero\n")) for i in range(3)]
 
-print("Numeros pares da lista:")
+# print("Numeros pares da lista:")
 
-for numero in lista:
-    if numero % 2 ==0:
-        print(f"{numero}")
+# for numero in lista:
+#     if numero % 2 ==0:
+#         print(f"{numero}")
     
 # 6. Escreva um programa que receba uma lista de números do usuário e imprima
 # apenas os números ímpares presentes na lista.
@@ -83,16 +102,4 @@ for numero in lista:
 
 
 
-lista=[]
-numero= input("Digite um numero ou 'sair' para encerrar:")
-while numero!= "sair":
-    lista.append(int(numero))
-    numero=input("Digite outro numero ou 'sair' para encerrar: ")
 
-total_itens = len(lista)
-itens_lista= ",".join(str(item) for item in lista)
-media= sum(lista)/total_itens
-
-print(f"total de itens: {total_itens}")
-print(f"Itens na lista: {itens_lista}")
-print(f"Média dos numeros da lista:{media}")
