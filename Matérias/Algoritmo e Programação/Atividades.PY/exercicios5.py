@@ -80,3 +80,19 @@ for numero in lista:
 # decrescente.
 # 15. Escreva um programa que receba uma lista de números do usuário e retorne uma lista sem
 # duplicatas.
+
+
+
+lista=[]
+numero= input("Digite um numero ou 'sair' para encerrar:")
+while numero!= "sair":
+    lista.append(int(numero))
+    numero=input("Digite outro numero ou 'sair' para encerrar: ")
+
+total_itens = len(lista)
+itens_lista= ",".join(str(item) for item in lista)
+media= sum(lista)/total_itens
+
+print(f"total de itens: {total_itens}")
+print(f"Itens na lista: {itens_lista}")
+print(f"Média dos numeros da lista:{media}")
