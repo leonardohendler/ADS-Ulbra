@@ -1,13 +1,40 @@
 # 1. Escreva um programa que receba uma lista de números do usuário e imprima a
 # lista na tela.
+
+# lista= [int(input("Digite um numero\n"))] + [int(input("Digite outro numero\n")) for i in range(4)]
+# print(f'Lista desejada: {lista}')
+
 # 2. Escreva um programa que receba uma lista de nomes do usuário e imprima cada
 # nome em uma linha separada.
+
+
+
 # 3. Escreva um programa que receba uma lista de números do usuário e calcule a
 # soma de todos os números presentes na lista.
+
+# lista = [int(input("Digite um número: "))] + [int(input("Digite outro número: ")) for i in range(4)]
+# soma = sum(lista) 
+# print(f"A média dos números da lista é {soma}.")
+
 # 4. Escreva um programa que receba uma lista de números do usuário e calcule a
 # média de todos os números presentes na lista.
+
+# lista = [int(input("Digite um número: "))] + [int(input("Digite outro número: ")) for i in range(4)]
+# media = sum(lista) / len(lista)
+# print(f"A média dos números da lista é {media}.")
+
+
 # 5. Escreva um programa que receba uma lista de números do usuário e imprima
 # apenas os números pares presentes na lista.
+
+lista=[int(input("Digite um numero\n"))] + [int(input("Digite outro numero\n")) for i in range(3)]
+
+print("Numeros pares da lista:")
+
+for numero in lista:
+    if numero % 2 ==0:
+        print(f"{numero}")
+    
 # 6. Escreva um programa que receba uma lista de números do usuário e imprima
 # apenas os números ímpares presentes na lista.
 # 7. Escreva um programa que receba uma lista de números do usuário e imprima
