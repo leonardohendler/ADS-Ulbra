@@ -154,7 +154,7 @@ while True:
     else:
         print("Digite uma opção válida!")
         
-        
+#         colocar um try, e um except valueerror
 --------------------------------------------------------------        
         
         pares=[]
