@@ -102,6 +102,12 @@
 
 
 
+
+
+pedido=[]
+descricao=[]
+while True:
+    
 print("TERMINAL DE VENDAS")
 print("Menu de produtos")
 print("1 - ÁGUA")
@@ -113,13 +119,8 @@ print("6 - ENCERRAR VENDA")
 print("7 - SAIR")
 print("____________________________________________________")
 
-
-pedido=[]
-descricao=[]
-while True:
-
     opc_menu= int(input("Digite o código:"))  
-    
+    os.system('cls')
     if opc_menu ==1:
         pedido.append(3.00)
         descricao.append("Água - R$ 3,00")
