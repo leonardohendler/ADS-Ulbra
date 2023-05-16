@@ -102,3 +102,103 @@
 
 
 
+# ______________________________________________________________________________
+
+# exercicios extras
+
+# ______________________________________________________________________________
+# lista=[]
+# numero= input("Digite um numero ou 'sair' para encerrar:")
+# while numero!= "sair":
+#     lista.append(int(numero))
+#     numero=input("Digite outro numero ou 'sair' para encerrar: ")
+
+# total_itens = len(lista)
+# itens_lista= ",".join(str(item) for item in lista)
+# media= sum(lista)/total_itens
+
+# print(f"total de itens: {total_itens}")
+# print(f"Itens na lista: {itens_lista}")
+# print(f"Média dos numeros da lista:{media}")
+
+
+# ______________________________________________________________________________
+# import os
+
+# pedido=[]
+# descricao=[]
+# while True:
+        
+#     print("TERMINAL DE VENDAS")
+#     print("Menu de produtos")
+#     print("1 - ÁGUA")
+#     print("2 - REFRI")
+#     print("3 - CAFÉ")
+#     print("4 - PÃO DE QUEIJO")
+#     print("5 - IMPRIMIR LISTA")
+#     print("6 - ENCERRAR VENDA")
+#     print("7 - SAIR")
+#     print("____________________________________________________")
+
+
+
+#     opc_menu= int(input("Digite o código:"))  
+#     os.system('cls')
+#     if opc_menu ==1:
+#         pedido.append(3.00)
+#         descricao.append("Água - R$ 3,00")
+#     elif opc_menu == 2:
+#         pedido.append(6.00)
+#         descricao.append("Refri - R$ 6,00")
+#     elif opc_menu == 3:
+#         pedido.append(5.00)
+#         descricao.append("Café - R$ 5,00")
+#     elif opc_menu == 4:
+#         pedido.append(10.00)
+#         descricao.append("Pão de queijo - R$ 10,00")
+#     elif opc_menu == 5:
+#         print("------------------------")
+#         print(f"|PRODUTOS SELECIONADOS:|")
+#         print("------------------------")
+#         for item in descricao:
+#             print(item)
+#         print("--------------------------")
+#         print(f"Total do pedido: R$ {sum(pedido):.2f}")
+#         print("--------------------------")
+#     elif opc_menu == 6:
+#         print("--------------------------")
+#         print(f"Total do pedido: R$ {sum(pedido):.2f}")
+#         print("Formas de pagamento:")
+#         print("DINHEIRO")
+#         print("CARTÃ0 DE CRÉDITO OU DÉBITO")
+#         print("PIX")
+#         print("--------------------------")
+#     elif opc_menu == 7:    
+#         break
+#     else:
+#         print("Digite uma opção válida!")
+            
+        
+# # --------------------------------------------------------------        
+        
+# pares=[]
+# impares=[]
+
+# for i in range(10):
+#     try:
+#         numero=int(input("Digite um numero inteiro\n"))
+#     except ValueError:
+#         print("Digite um valor inteiro!")
+#         continue
+    
+#     if numero % 2 ==0:
+#         pares.append(numero)
+#         print(f'O numero digitado é Par!')
+#     else:
+#         impares.append(numero)
+#         print(f'O numero digitado é Impar!')
+    
+
+# print(f"Numeros pares digitados:{pares}" )
+# print(f"Numeros impares digitados: {impares}" )
+
