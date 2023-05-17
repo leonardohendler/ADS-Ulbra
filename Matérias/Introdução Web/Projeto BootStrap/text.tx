@@ -1,0 +1,17 @@
+
+Para esta atividade você deverá criar um projeto estilizando somente através das classes do bootstrap 5. Este será um tema livre (portfólio, mini-loja, site de banda, página de receitas, pousada, imobiliária, restaurante, viagens, eventos, etc…). Inicialmente ele deverá conter as seguintes formatações:
+
+Estrutura para três tamanhos de dispositivos;
+Conter menu de navegação;
+Conter 5 ou mais imagens;
+Conter mais de uma página;
+Utilizar cards;
+Fazer uso de padding, margem e border;
+Trabalhar com classes de alinhamento (centro, direita e esquerda);
+Organizar o projeto em pastas;
+Incluir um menu suspenso (DropDown);
+Colocar conteúdo oculto e apresentar ao clique (Collapse).
+Incluir uma apresentação de slides com 3 ou mais imagens (Carousel).
+Explorar e incluir um novo componente. Dica: Barra de progresso, spinners, paginação ou modal.
+
+Será avaliado o design, a organização do código (semântica), a usabilidade e a responsividade do site. Lembre-se que o site deverá funcionar corretamente em diferentes dispositivos.
