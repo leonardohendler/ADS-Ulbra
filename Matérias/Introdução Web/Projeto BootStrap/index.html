@@ -17,62 +17,42 @@
 
   <header class="bg-secondary text-center text-white">
     <h1 id="home" class="p-3">Gramado Lovers</h1>
-    <p>"Foi desenvolvido com o mesmo amor e paixão que nós temos por esta cidade deslumbrante da Serra Gaúcha, pensando
-      em pessoas que compartilham desse mesmo entusiasmo."</p>
+    <p>"Um site desenvolvido com o mesmo amor e paixão que nós temos por esta cidade deslumbrante da Serra Gaúcha, pensando em pessoas que compartilham desse mesmo entusiasmo."</p>
 
 
-    <nav class="navbar navbar-expand-sm bg-secondary ">
-
+      <nav class="navbar navbar-expand-sm bg-secondary ">
+    <!-- Menu de navegação -->
       <div class="container-fluid justify-content-end">
-        <!-- Links -->
-        <li>
-          <div class="dropdown">
-            <button type="button" class="btn btn-secondary dropdown-toggle" data-bs-toggle="dropdown">
-              Home
-            </button>
-            <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="#">Link 1</a></li>
-              <li><a class="dropdown-item" href="#">Link 2</a></li>
-              <li><a class="dropdown-item" href="#">Link 3</a></li>
-            </ul>
-          </div>
-        </li>
-        <li>
-          <div class="dropdown">
-            <button type="button" class="btn btn-secondary dropdown-toggle" data-bs-toggle="dropdown">
-              Passeios
-            </button>
-            <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="#">Link 1</a></li>
-              <li><a class="dropdown-item" href="#">Link 2</a></li>
-              <li><a class="dropdown-item" href="#">Link 3</a></li>
-            </ul>
-          </div>
-        </li>
-        <li>
-          <div class="dropdown">
+        <div class="dropdown">
+          <button type="button" class=" btn btn-secondary dropdown-toggle" data-bs-toggle="dropdown">
+            Passeios
+          </button>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item btn btn-secondary" href="#lago negro">Lago Negro</a></li>
+            <li><a class="dropdown-item btn btn-secondary" href="#mini-mundo">Mini-Mundo</a></li>
+            <li><a class="dropdown-item btn btn-secondary" href="#floribal">Parque Terra Mágica Florybal</a></li>
+            <li><a class="dropdown-item btn btn-secondary" href="#acqua">Acqua Motion</a></li>
+          </ul>
+        </div>
+        <div class="dropdown">
             <button type="button" class="btn btn-secondary dropdown-toggle" data-bs-toggle="dropdown">
               Restaurantes
             </button>
             <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="#">Link 1</a></li>
-              <li><a class="dropdown-item" href="#">Link 2</a></li>
-              <li><a class="dropdown-item" href="#">Link 3</a></li>
+              <li><a class="dropdown-item btn btn-secondary" href="#pizzaria">Pizzaria Cara de Mau</a></li>
+              <li><a class="dropdown-item btn btn-secondary" href="#divino">Divino</a></li>
+              <li><a class="dropdown-item btn btn-secondary" href="#gatzz">Gatzz</a></li>
+              <li><a class="dropdown-item btn btn-secondary" href="#neni">Neni</a></li>
             </ul>
-          </div>
-        </li>
-
+        </div>
         <div class="dropdown">
           <button type="button" class="btn btn-secondary dropdown-toggle" data-bs-toggle="dropdown">
             Galeria de Fotos
           </button>
           <ul class="dropdown-menu bg">
-            <li><a class="dropdown-item" href="#">Link 1</a></li>
-            <li><a class="dropdown-item" href="#">Link 2</a></li>
-            <li><a class="dropdown-item" href="#">Link 3</a></li>
+            <li><a class="dropdown-item btn btn-secondary" href="#galeria">Ver mais</a></li>
           </ul>
         </div>
-        </li>
       </div>
     </nav>
   </header>
@@ -83,12 +63,9 @@
     <section class="container-fluid justify-content-center p-5">
       <h1>Gramado-RS</h1>
 
-      <!-- fazer uma pasta de paginas de navegação -->
-
-
       <div class="row ">
 
-        <div class="mt-3 col-md-12 col-lg-12">
+        <div class="mt-3 col-sm-6 col-md-12 col-lg-12">
 
           <p>Gramado é uma cidade brasileira localizada no estado do Rio Grande do Sul, na região da Serra Gaúcha. É uma
             cidade turística muito conhecida pela sua beleza natural, arquitetura europeia, clima frio e gastronomia
@@ -113,85 +90,40 @@
 
 
     <!-- Carousel -->
-    <div id="demo" class="carousel slide" data-bs-ride="carousel">
-
-      <!-- Indicators/dots -->
-      <div class="carousel-indicators">
-        <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
-        <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
-        <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
-      </div>
-
-      <!-- The slideshow/carousel -->
-      <div class="carousel-inner">
-
-        <div class="carousel-item active">
-          <img src="photos/gramado.jpg" alt="Gramado" class="d-block w-50 rounded mx-auto">
-            <div class="carousel-caption">
-            <h3>Gramado</h3>
-            <p>We had such a great time in LA!</p>
-          </div> 
-        </div>
-
-        <div class="carousel-item active">
-          <img src="photos/gramado.jpg" alt="Gramado" class="d-block w-50 rounded mx-auto">
-          <div class="carousel-caption">
-          <h3>Gramado</h3>
-          <p>We had such a great time in LA!</p>
-        </div>
-        </div>
-
-        <div class="carousel-item active">
-          <img src="photos/gramado.jpg" alt="Gramado" class="d-block w-50 rounded mx-auto">
-          <div class="carousel-caption">
-          <h3>Gramado</h3>
-            <p>We had such a great time in LA!</p>
-        </div>
-      </div>
-
-      </div>
-
-      <!-- Left and right controls/icons -->
-      <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
-        <span class="carousel-control-prev-icon"></span>
-      </button>
-      <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
-        <span class="carousel-control-next-icon"></span>
-      </button>
-    </div>
+   
 
     </div>
 
   </section>
 
     <section class="container-fluid mt-5 p-3 ">
-      <h1 id="passeios">Passeios</h1>
+      <h1>Passeios</h1>
 
       <!-- escrever um resumo dos passseios, de forma geral -->
 
       <div class="row">
-        <div class="col-md-5 col-lg-5 card p-5 m-5 bg-white">
+        <div id="lago negro" class="col-md-5 col-lg-5 card p-5 m-5 bg-white">
           <img class="img-fluid w-100 h-100" src="photos/lago-negro.jpg" alt="card-img-top">
-          <h1 class="card-tittle text-dark"> Lago Negro</h1>
-          <a href="" class="btn btn-secondary "> Saiba mais</a>
+          <h1 class="card-tittle text-dark">Lago Negro</h1>
+          <a href="Passeios/lago.html" class="btn btn-secondary ">Saiba mais</a>
         </div>
 
-        <div class="col-md-5 col-lg-5 card p-5 m-5">
+        <div id="mini-mundo" class="col-md-5 col-lg-5 card p-5 m-5">
           <img class="img-fluid w-100 h-100" src="photos/Mini-mundo.jpg" alt="card-img-top">
-          <h1 class="card-tittle text-dark"> Mini-mundo</h1>
-          <a href="" class="btn btn-secondary"> Saiba mais</a>
+          <h1 class="card-tittle text-dark">Mini-Mundo</h1>
+          <a href="Passeios/minimundo.html" class="btn btn-secondary"> Saiba mais</a>
         </div>
 
-        <div class="col-md-5 col-lg-5 card p-5 m-5">
+        <div id="floribal" class="col-md-5 col-lg-5 card p-5 m-5">
           <img class="img-fluid w-100 h-100" src="photos/park-floribal.jpg" alt="card-img-top">
-          <h1 class="card-tittle text-dark"> Park Floribal</h1>
-          <a href="" class="btn btn-secondary"> Saiba mais</a>
+          <h1 class="card-tittle text-dark">Parque Terra Mágica Florybal</h1>
+          <a href="Passeios/floribal.html" class="btn btn-secondary"> Saiba mais</a>
         </div>
 
-        <div class="col-md-5 col-lg-5 card p-5 m-5">
+        <div id="acqua" class="col-md-5 col-lg-5 card p-5 m-5">
           <img class="img-fluid w-100 h-100" src="photos/acquamotion.jpeg" alt="card-img-top">
-          <h1 class="card-tittle text-dark"> AcquaMotion</h1>
-          <a href="" class="btn btn-secondary"> Saiba mais</a>
+          <h1 class="card-tittle text-dark">AcquaMotion</h1>
+          <a href="Passeios/acqua.html" class="btn btn-secondary"> Saiba mais</a>
         </div>
 
       </div>
@@ -204,41 +136,104 @@
 
       <!-- escrever sobre os restaurantes de forma geral -->
       <div class="row">
-        <div class="col-md-5 col-lg-5 card p-5 m-5">
+        <div id="pizzaria" class="col-md-5 col-lg-5 card p-5 m-5">
           <img class="img-fluid w-100 h-100" src="photos/pizzaria-cara-de-mau.jpg" alt="card-img-top">
-          <h1 class="card-tittle text-dark"> Pizzaria Cara-de-Mau</h1>
-          <a href="" class="btn btn-secondary"> Saiba mais</a>
+          <h1 class="card-tittle text-dark"> Pizzaria Cara de Mau</h1>
+          <a href="Restaurantes/pizzaria.html" class="btn btn-secondary"> Saiba mais</a>
         </div>
 
-        <div class="col-md-5 col-lg-5 card p-5 m-5">
+        <div id="divino" class="col-md-5 col-lg-5 card p-5 m-5">
           <img class="img-fluid w-100 h-100" src="photos/divino.webp" alt="card-img-top">
-          <h1 class="card-tittle text-dark"> Divino Restaurante</h1>
-          <a href="" class="btn btn-secondary"> Saiba mais</a>
+          <h1 class="card-tittle text-dark">Divino</h1>
+          <a href="Restaurantes/divino.html" class="btn btn-secondary"> Saiba mais</a>
         </div>
 
-        <div class="col-md-5 col-lg-5 card p-5 m-5">
+        <div id="gatzz" class="col-md-5 col-lg-5 card p-5 m-5">
           <img class="img-fluid w-100 h-100" src="photos/gatzz.jpg" alt="card-img-top">
-          <h1 class="card-tittle text-dark"> Gatzz</h1>
-          <a href="" class="btn btn-secondary"> Saiba mais</a>
+          <h1 class="card-tittle text-dark">Gatzz</h1>
+          <a href="Restaurantes/gatzz.html" class="btn btn-secondary"> Saiba mais</a>
         </div>
 
-        <div class="col-md-5 col-lg-5 card p-5 m-5">
+        <div  id="neni" class="col-md-5 col-lg-5 card p-5 m-5">
           <img class="img-fluid w-100 h-100" src="photos/Neni.jpg" alt="card-img-top">
-          <h1 class="card-tittle text-dark"> Neni </h1>
-          <a href="" class="btn btn-secondary"> Saiba mais</a>
+          <h1 class="card-tittle text-dark">Neni</h1>
+          <a href="Restaurantes/neni.html" class="btn btn-secondary"> Saiba mais</a>
         </div>
 
       </div>
     </section>
 
 
-    <section class="container-fluid mt-5 p-1">
-      <h1 id="galeria">Galeria de Fotos</h1>
-
-      <!-- fazer carrossel -->
-      <!-- p/ passar as imagens -->
+    <section  id="galeria" class="container-fluid mt-5 p-5 bg-dark">
+      <h1 class="p-5">Galeria de Fotos</h1>
 
 
+      <div id="demo" class="carousel slide" data-bs-ride="carousel">
+
+        
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+          <button type="button" data-bs-target="#demo" data-bs-slide-to="1" class="active"></button>
+          <button type="button" data-bs-target="#demo" data-bs-slide-to="2" class="active"></button>
+          <button type="button" data-bs-target="#demo" data-bs-slide-to="3" class="active"></button>
+          <button type="button" data-bs-target="#demo" data-bs-slide-to="4" class="active"></button>
+         
+        </div>
+  
+       
+        <div class="carousel-inner">
+  
+          <div class="carousel-item active">  
+            <img src="photos/gramado.jpg" alt="0" class="d-block w-50 rounded mx-auto">
+              <div class="carousel-caption">
+              <h3>Pórtico de entrada, via Nova Petrópolis</h3>
+            </div> 
+          </div>
+  
+          <div class="carousel-item active">
+            <img src="photos/largo da borges.jpg" alt="1" class="d-block w-50 rounded mx-auto">
+            <div class="carousel-caption">
+            <h3>Largo da Borges</h3>
+          </div>
+          </div>
+  
+          <div class="carousel-item active">
+            <img src="photos/centro.jpg" alt="2" class="d-block w-50 rounded mx-auto">
+            <div class="carousel-caption">
+            <h3>Centro</h3>
+          </div>
+          </div>
+            <div class="carousel-item active">
+              <img src="photos/igreja.jpg" alt="3" class="d-block w-50 rounded mx-auto">
+              <div class="carousel-caption">
+              <h3>Igreja</h3>
+              </div>
+          </div>
+            <div class="carousel-item active">
+              <img src="photos/rua coberta.jpg" alt="4" class="d-block w-50 rounded mx-auto">
+              <div class="carousel-caption">
+              <h3>Rua Coberta</h3>
+          </div>
+          </div>
+          
+         
+  
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon"></span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+          <span class="carousel-control-next-icon"></span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+          <span class="carousel-control-next-icon"></span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+          <span class="carousel-control-next-icon"></span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+          <span class="carousel-control-next-icon"></span>
+        </button>
       </div>
     </section>
 
