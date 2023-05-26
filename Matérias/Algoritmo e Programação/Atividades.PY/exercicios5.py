@@ -1,51 +1,3 @@
-# ______________________________________________________________________________
-
-# exercicios extras
-
-# ______________________________________________________________________________
-# lista=[]
-# numero= input("Digite um numero ou 'sair' para encerrar:")
-# while numero!= "sair":
-#     lista.append(int(numero))
-#     numero=input("Digite outro numero ou 'sair' para encerrar: ")
-
-# total_itens = len(lista)
-# itens_lista= ",".join(str(item) for item in lista)
-# media= sum(lista)/total_itens
-
-# print(f"total de itens: {total_itens}")
-# print(f"Itens na lista: {itens_lista}")
-# print(f"Média dos numeros da lista:{media}")
-
-
-
-#--------------------------------------------------------------        
-        
-# pares=[]
-# impares=[]
-
-# for i in range(10):
-#     try:
-#         numero=int(input("Digite um numero inteiro\n"))
-#     except ValueError:
-#         print("Digite um valor inteiro!")
-#         continue
-    
-#     if numero % 2 ==0:
-#         pares.append(numero)
-#         print(f'O numero digitado é Par!')
-#     else:
-#         impares.append(numero)
-#         print(f'O numero digitado é Impar!')
-
-
-# print(f"Numeros pares digitados:{pares}" )
-# print(f"Numeros impares digitados: {impares}" )
-
-
-# -------------------------------------------------------------- 
-
-
 # 1. Escreva um programa que receba uma lista de números do usuário e imprima a
 # lista na tela.
 # lista=[]
@@ -217,8 +169,8 @@
 
 
 
-    # 1.Escreva um programa que receba uma lista de números do usuário e retorne o maior número
-    # presente na lista.
+# 1.Escreva um programa que receba uma lista de números do usuário e retorne o maior número
+# presente na lista.
 
 
 # lista= []
@@ -579,3 +531,49 @@
 
 
 
+# ______________________________________________________________________________
+
+# exercicios extras
+
+# ______________________________________________________________________________
+# lista=[]
+# numero= input("Digite um numero ou 'sair' para encerrar:")
+# while numero!= "sair":
+#     lista.append(int(numero))
+#     numero=input("Digite outro numero ou 'sair' para encerrar: ")
+
+# total_itens = len(lista)
+# itens_lista= ",".join(str(item) for item in lista)
+# media= sum(lista)/total_itens
+
+# print(f"total de itens: {total_itens}")
+# print(f"Itens na lista: {itens_lista}")
+# print(f"Média dos numeros da lista:{media}")
+
+
+
+#--------------------------------------------------------------        
+        
+# pares=[]
+# impares=[]
+
+# for i in range(10):
+#     try:
+#         numero=int(input("Digite um numero inteiro\n"))
+#     except ValueError:
+#         print("Digite um valor inteiro!")
+#         continue
+    
+#     if numero % 2 ==0:
+#         pares.append(numero)
+#         print(f'O numero digitado é Par!')
+#     else:
+#         impares.append(numero)
+#         print(f'O numero digitado é Impar!')
+
+
+# print(f"Numeros pares digitados:{pares}" )
+# print(f"Numeros impares digitados: {impares}" )
+
+
+# -------------------------------------------------------------- 
