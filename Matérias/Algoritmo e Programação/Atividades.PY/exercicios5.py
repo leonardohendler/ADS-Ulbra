@@ -18,64 +18,7 @@
 # print(f"Média dos numeros da lista:{media}")
 
 
-# ______________________________________________________________________________
 
-# import os
-
-# pedido=[]
-# descricao=[]
-# while True:
-        
-#     print("TERMINAL DE VENDAS")
-#     print("Menu de produtos")
-#     print("1 - ÁGUA")
-#     print("2 - REFRI")
-#     print("3 - CAFÉ")
-#     print("4 - PÃO DE QUEIJO")
-#     print("5 - IMPRIMIR LISTA")
-#     print("6 - ENCERRAR VENDA")
-#     print("7 - SAIR")
-#     print("____________________________________________________")
-
-
-
-#     opc_menu= int(input("Digite o código:"))  
-#     os.system('cls')
-#     if opc_menu ==1:
-#         pedido.append(3.00)
-#         descricao.append("Água - R$ 3,00")
-#     elif opc_menu == 2:
-#         pedido.append(6.00)
-#         descricao.append("Refri - R$ 6,00")
-#     elif opc_menu == 3:
-#         pedido.append(5.00)
-#         descricao.append("Café - R$ 5,00")
-#     elif opc_menu == 4:
-#         pedido.append(10.00)
-#         descricao.append("Pão de queijo - R$ 10,00")
-#     elif opc_menu == 5:
-#         print("------------------------")
-#         print(f"|PRODUTOS SELECIONADOS:|")
-#         print("------------------------")
-#         for item in descricao:
-#             print(item)
-#         print("--------------------------")
-#         print(f"Total do pedido: R$ {sum(pedido):.2f}")
-#         print("--------------------------")
-#     elif opc_menu == 6:
-#         print("--------------------------")
-#         print(f"Total do pedido: R$ {sum(pedido):.2f}")
-#         print("Formas de pagamento:")
-#         print("DINHEIRO")
-#         print("CARTÃ0 DE CRÉDITO OU DÉBITO")
-#         print("PIX")
-#         print("--------------------------")
-#     elif opc_menu == 7:    
-#         break
-#     else:
-#         print("Digite uma opção válida!")
-            
-        
 #--------------------------------------------------------------        
         
 # pares=[]
@@ -255,30 +198,193 @@
 # 10.Escreva um programa que receba uma lista de números do usuário e verifique se
 # um número específico está presente na lista.
 
+# lista= []
+# while True:
+#     num= int(input("Digite um numero\n"))
+#     if num == 0:
+#         break
+#     else:
+#         lista.append(num)
+
+# print(lista)
+
+# verificar=int(input("Digite o numero a ser verificado!\n"))
+# for i in lista:
+#     if i == verificar:
+#         print("O numero esta presente na lista!")
+            
 
 
 
 
-# 1.Escreva um programa que receba uma lista de números do usuário e retorne o maior número
-# presente na lista.
+    # 1.Escreva um programa que receba uma lista de números do usuário e retorne o maior número
+    # presente na lista.
+
+
+# lista= []
+# while True:
+#     num= int(input("Digite um numero!\n"))
+#     if num == 0:
+#         break
+#     else:
+#         lista.append(num)
+
+# maior_numero = max(lista)
+# print(f"O maior numero da lista é: {maior_numero}")
+
+
+
 # 2. Escreva um programa que receba uma lista de números do usuário e retorne o menor número
 # presente na lista.
+
+# lista= []
+# while True:
+#     num=int(input("Digite um numero para preencher a lista!\n"))
+#     if num == 0:
+#         break
+#     else:
+#         lista.append(num)
+
+# menor_numero = min(lista)
+# print(f"O menor numero presenta na lista é: {menor_numero}")
+
+
 # 3. Escreva um programa que receba uma lista de números do usuário e retorne a soma de todos os
 # números presentes na lista.
+
+# lista= []
+# while True:
+#     num= int(input("Digite um numero!\n"))
+#     if num == 0:
+#         break
+#     else:
+#         lista.append(num)
+# soma_lista= sum(lista)
+# print(f"A soma dos numeros da lista é: {soma_lista}")
+
+
 # 4. Escreva um programa que receba uma lista de números do usuário e retorne a quantidade de
 # números pares presentes na lista.
+
+# lista= []
+# while True:
+#     num= int(input("Digite um numero\n"))
+#     if num == 0:
+#         break
+#     else: 
+#         lista.append(num)
+
+# numeros_pares = 0
+# for i in lista:
+#     if i % 2 == 0:
+#         numeros_pares += 1
+# print(numeros_pares)
+       
+        
+
 # 5. Escreva um programa que receba uma lista de números do usuário e retorne a quantidade de
 # números ímpares presentes na lista.
+
+# lista= []
+# while True:
+#     num= int(input("Digite um numero\n"))
+#     if num == 0:
+#         break
+#     else: 
+#         lista.append(num)
+
+# numeros_impares = 0
+# for i in lista:
+#     if i % 2 != 0:
+#         numeros_impares += 1
+# print(numeros_impares)
+
 # 6. Escreva um programa que receba uma lista de números do usuário e retorne uma lista com
 # apenas os números pares presentes na lista.
+
+# lista= []
+# lista_par= []
+# while True:
+#     num = int(input("Digite um numero\n"))
+#     if num == 0: 
+#         break
+#     else:
+#         lista.append(num)
+
+# for i in lista:
+#     if i % 2 == 0:
+#         lista_par.append(i)
+
+# print(f"Lista de numeros pares! {lista_par}")
+
+
 # 7. Escreva um programa que receba uma lista de números do usuário e retorne uma lista com
 # apenas os números ímpares presentes na lista.
+
+# lista= []
+# lista_impares= []
+# while True:
+#     num = int(input("Digite um numero\n"))
+#     if num == 0: 
+#         break
+#     else:
+#         lista.append(num)
+
+# for i in lista:
+#     if i % 2 != 0:
+#         lista_impares.append(i)
+
+# print(f"Lista de numeros pares! {lista_impares}")
+
 # 8. Escreva um programa que receba uma lista de nomes do usuário e retorne o nome mais longo
 # presente na lista.
+
+
+# lista= []
+# while True:
+#     nomes=(input("Digite um nome\n"))
+#     if nomes == "sair":
+#         break
+#     else:
+#         lista.append(nomes)
+# nome_mais_longo=  max(lista, key=len)
+# print(nome_mais_longo)
+
 # 9. Escreva um programa que receba uma lista de números do usuário e retorne a média dos
 # números presentes na lista.
+# lista=[]
+# while True:
+#     num=int(input("Digite um numero\n"))
+#     if num == 0:
+#         break
+#     else:
+#         lista.append(num)
+
+# quantidade_numeros= len(lista)
+# soma_da_lista= sum(lista)
+# media= soma_da_lista/quantidade_numeros
+
+# print(media)
+
+
 # 10. Escreva um programa que receba uma lista de números do usuário e retorne uma lista com
 # apenas os números que são múltiplos de 3 e 5 simultaneamente.
+
+# lista = []
+# while True:
+#     num = int(input("Digite um numero!\n"))
+#     if num == 0:
+#         break
+#     else:
+#         lista.append(num)
+
+# for item in lista:
+#     if item % 3 == 0 and item % 5 ==0:
+#         print(f"O numeros multiplos de 3 e 5 na lista são: {item}")
+#     else:
+#         print("Não tem nenhum numero presente na lista!")  
+
+
 # 11. Escreva um programa que receba uma lista de nomes do usuário e determine se todos os
 # nomes possuem a mesma quantidade de caracteres.
 
@@ -305,7 +411,20 @@
 # apenas os números ímpares presentes na lista, utilizando um loop while.
 
 
+# lista=[]
+# lista_impares=[]
+# while True:
+#     num= int(input("Digite um numero!\n"))
+#     if num == 0:
+#         break
+#     else:
+#         lista.append(num)
 
+# for item in lista:
+#     if item % 2 != 0:
+#         lista_impares.append(item)
+
+# print(lista_impares)
         
 
 # 13. Escreva um programa que receba uma lista de números do usuário e retorne a lista em ordem
@@ -361,78 +480,78 @@
 # exercicios extras
 
 # ______________________________________________________________________________
-def exercise_extra():
-    lista=[]
-    numero= input("Digite um numero ou 'sair' para encerrar:")
-    while numero!= "sair":
-        lista.append(int(numero))
-        numero=input("Digite outro numero ou 'sair' para encerrar: ")
 
-    total_itens = len(lista)
-    itens_lista= ",".join(str(item) for item in lista)
-    media= sum(lista)/total_itens
+# lista=[]
+# numero= input("Digite um numero ou 'sair' para encerrar:")
+# while numero!= "sair":
+#     lista.append(int(numero))
+#     numero=input("Digite outro numero ou 'sair' para encerrar: ")
 
-    print(f"total de itens: {total_itens}")
-    print(f"Itens na lista: {itens_lista}")
-    print(f"Média dos numeros da lista:{media}")
+# total_itens = len(lista)
+# itens_lista= ",".join(str(item) for item in lista)
+# media= sum(lista)/total_itens
+
+# print(f"total de itens: {total_itens}")
+# print(f"Itens na lista: {itens_lista}")
+# print(f"Média dos numeros da lista:{media}")
 
 
-def exercise_extra1():    
-    import os
+   
+# import os
 
-    pedido=[]
-    descricao=[]
-    while True:
+# pedido=[]
+# descricao=[]
+# while True:
+        
+#     print("TERMINAL DE VENDAS")
+#     print("Menu de produtos")
+#     print("1 - ÁGUA")
+#     print("2 - REFRI")
+#     print("3 - CAFÉ")
+#     print("4 - PÃO DE QUEIJO")
+#     print("5 - IMPRIMIR LISTA")
+#     print("6 - ENCERRAR VENDA")
+#     print("7 - SAIR")
+#     print("____________________________________________________")
+
+
+
+#     opc_menu= int(input("Digite o código:"))  
+#     os.system('cls')
+#     if opc_menu ==1:
+#         pedido.append(3.00)
+#         descricao.append("Água - R$ 3,00")
+#     elif opc_menu == 2:
+#         pedido.append(6.00)
+#         descricao.append("Refri - R$ 6,00")
+#     elif opc_menu == 3:
+#         pedido.append(5.00)
+#         descricao.append("Café - R$ 5,00")
+#     elif opc_menu == 4:
+#         pedido.append(10.00)
+#         descricao.append("Pão de queijo - R$ 10,00")
+#     elif opc_menu == 5:
+#         print("------------------------")
+#         print(f"|PRODUTOS SELECIONADOS:|")
+#         print("------------------------")
+#         for item in descricao:
+#             print(item)
+#         print("--------------------------")
+#         print(f"Total do pedido: R$ {sum(pedido):.2f}")
+#         print("--------------------------")
+#     elif opc_menu == 6:
+#         print("--------------------------")
+#         print(f"Total do pedido: R$ {sum(pedido):.2f}")
+#         print("Formas de pagamento:")
+#         print("DINHEIRO")
+#         print("CARTÃ0 DE CRÉDITO OU DÉBITO")
+#         print("PIX")
+#         print("--------------------------")
+#     elif opc_menu == 7:    
+#         break
+#     else:
+#         print("Digite uma opção válida!")
             
-        print("TERMINAL DE VENDAS")
-        print("Menu de produtos")
-        print("1 - ÁGUA")
-        print("2 - REFRI")
-        print("3 - CAFÉ")
-        print("4 - PÃO DE QUEIJO")
-        print("5 - IMPRIMIR LISTA")
-        print("6 - ENCERRAR VENDA")
-        print("7 - SAIR")
-        print("____________________________________________________")
-
-
-
-        opc_menu= int(input("Digite o código:"))  
-        os.system('cls')
-        if opc_menu ==1:
-            pedido.append(3.00)
-            descricao.append("Água - R$ 3,00")
-        elif opc_menu == 2:
-            pedido.append(6.00)
-            descricao.append("Refri - R$ 6,00")
-        elif opc_menu == 3:
-            pedido.append(5.00)
-            descricao.append("Café - R$ 5,00")
-        elif opc_menu == 4:
-            pedido.append(10.00)
-            descricao.append("Pão de queijo - R$ 10,00")
-        elif opc_menu == 5:
-            print("------------------------")
-            print(f"|PRODUTOS SELECIONADOS:|")
-            print("------------------------")
-            for item in descricao:
-                print(item)
-            print("--------------------------")
-            print(f"Total do pedido: R$ {sum(pedido):.2f}")
-            print("--------------------------")
-        elif opc_menu == 6:
-            print("--------------------------")
-            print(f"Total do pedido: R$ {sum(pedido):.2f}")
-            print("Formas de pagamento:")
-            print("DINHEIRO")
-            print("CARTÃ0 DE CRÉDITO OU DÉBITO")
-            print("PIX")
-            print("--------------------------")
-        elif opc_menu == 7:    
-            break
-        else:
-            print("Digite uma opção válida!")
-                
       
 # # --------------------------------------------------------------        
         
