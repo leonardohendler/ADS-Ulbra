@@ -1,0 +1,1 @@
+// 7 - Faça um script que apresenta a soma dos números múltiplos de 3 entre 0 e 100. 

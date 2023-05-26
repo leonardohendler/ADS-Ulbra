@@ -1,0 +1,1 @@
+// 6 - Crie um novo script que leia um número que só pode ser de 1 a 7 e imprima os dias da semana sendo 1 = domingo e 7 = sábado.

@@ -19,6 +19,7 @@
 
 
 # ______________________________________________________________________________
+
 # import os
 
 # pedido=[]
@@ -114,9 +115,6 @@
 
 
 # print(lista)    
-# print("Soma da lista:", sum(lista))
-# print("Contagem de elementos:", len(lista))
-# print("Resultado da média da lista:", sum(lista)/len(lista))
 
 
 # 2. Escreva um programa que receba uma lista de nomes do usuário e imprima cada
@@ -124,22 +122,20 @@
 
 # lista=[]
 # while True:
-#     num=int(input("Digite um numero\n"))
-#     if num == 0:
+#     nom=(input("Digite um nome\n"))
+#     if nom == "sair":
 #         break
 #     else:
-#         lista.append(num)
+#         lista.append(nom)
 
-
-# print(lista)    
-# print("Soma da lista:", sum(lista))
-# print("Contagem de elementos:", len(lista))
-# print("Resultado da média da lista:", sum(lista)/len(lista))
+# for i in lista:
+#     print(i)
 
 
 
 # 3. Escreva um programa que receba uma lista de números do usuário e calcule a
 # soma de todos os números presentes na lista.
+
 # lista=[]
 # while True:
 #     num=int(input("Digite um numero\n"))
@@ -148,14 +144,13 @@
 #     else:
 #         lista.append(num)
 
-
-# print(lista)    
+  
 # print("Soma da lista:", sum(lista))
-# print("Contagem de elementos:", len(lista))
-# print("Resultado da média da lista:", sum(lista)/len(lista))
+
 
 # 4. Escreva um programa que receba uma lista de números do usuário e calcule a
 # média de todos os números presentes na lista.
+
 # lista= []
 # while True:
 #     num=int(input("Digite um numero\n"))
@@ -164,15 +159,12 @@
 #     else:
 #         lista.append(num)
 
-# lista.sort(reverse=True)    
+# # lista.sort(reverse=True)    
 # # sort = ordem crescente
 # # reverse = decrescente
-# for item in lista:
-#     print(item)
 
-# print(lista)    
-# print("Soma da lista:", sum(lista))
-# print("Contagem de elementos:", len(lista))
+
+
 # print("Resultado da média da lista:", sum(lista)/len(lista))
 
 # 5. Escreva um programa que receba uma lista de números do usuário e imprima
@@ -180,22 +172,86 @@
 
 # lista=[]
 # while True:
-#     num=int(input)
+#     num=int(input("Digite um numero\n"))
+#     if num == 0:
+#         break
+#     else:
+#         lista.append(num)
 
-# print("Numeros pares da lista:")
+# for item in lista:
+#     if item % 2 ==0:
+#         print("Itens pares da lista: ", item)
 
-# for numero in lista:
-#     if numero % 2 ==0:
-#         print(f"{numero}")
+                 
+
     
 # 6. Escreva um programa que receba uma lista de números do usuário e imprima
 # apenas os números ímpares presentes na lista.
+
+# lista=[]
+# while True:
+#     numero=int(input("Digite um numero\n"))
+#     if numero == 0:
+#         break
+#     else:
+#         lista.append(numero)
+
+# for item in lista:
+#     if item % 2 != 0:
+#         print(f"Itens impares da lista: {item}")
+
+
+
+
+
 # 7. Escreva um programa que receba uma lista de números do usuário e imprima
 # apenas os números que são múltiplos de 3 e 5 simultaneamente.
+
+# lista= []
+# while True:
+#     num=int(input("Digite um numero\n"))
+#     if num == 0:
+#         break
+#     else:
+#         lista.append(num)
+
+# for item in lista:
+#     if item % 3 == 0 and item % 5 == 0: 
+#         print(f"Os numeros multiplos de 3 e 5 são: {item}")        
+
+
+
+
 # 8. Escreva um programa que receba uma lista de números do usuário e imprima a
 # lista em ordem crescente.
+
+
+# lista= []
+# while True:
+#     num=int(input("Digite um numero\n"))
+#     if num == 0:
+#         break
+#     else:
+#         lista.append(num)
+
+
+# lista.sort()
+# print(lista)   
+
 # 9. Escreva um programa que receba uma lista de números do usuário e imprima a
 # lista em ordem decrescente.
+
+# lista=[]
+# while True:
+#     num=int(input("Digite um numero\n"))
+#     if num == 0:
+#         break
+#     else:
+#         lista.append(num)
+
+# lista.sort(reverse=True)
+# print(lista)
+
 # 10.Escreva um programa que receba uma lista de números do usuário e verifique se
 # um número específico está presente na lista.
 
