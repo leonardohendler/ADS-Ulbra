@@ -577,3 +577,23 @@
 
 
 # -------------------------------------------------------------- 
+
+import requests
+
+requisicao = requests.get("https://economia.awesomeapi.com.br/json/last/USD-BRL,EUR-BRL,BTC-BRL")
+
+print(requisicao)
+
+dic_requisicao= requisicao.json()
+
+cambio = dic_requisicao["USDBRL"] ["bid"]
+
+dolar= float(cambio)
+
+reais= float(input("Digite o valor em real"))
+
+real = reais /dolar
+
+print(real)
+
+
