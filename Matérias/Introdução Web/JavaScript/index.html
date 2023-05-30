@@ -4,116 +4,137 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>JavaScript</title>
+    <title>Intro js</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="./assets/main.js"></script>
+    
 </head>
 <body>
-    <script>
-    // alert("Helo World")
-    // console.log("Ola mundo!")
-    // let nome = prompt("Digite seu nome")
-    // // alert("Seja bem vindo ao Curso de ADS " + nome)
-    // alert(`${nome} seja bem vindo ao curso.!`)  
-    // let num1= Number(prompt("Digite um numero"))
-    // let num2= Number(prompt("Digite outro numero"))
-    // let soma = num1 + num2;
-    // alert(soma)
+    <h1 class="m-4 d-flex justify-content-center align-items-center">Introdução ao JavaScript - Lista de exercícios</h1>
+    <div class="text-center">
+        <p class="d-flex justify-content-center align-items-center mb-1">1 - Crie um script que leia dois números e apresenta a multiplicação deles.
+        </p>
+        <button onclick="calcula()" class="btn1 mb-4 btn btn-primary col-md-2" id="btn1">
+            Calcular
+        </button>
 
-    // let numero = Number(prompt("Digite um numero"));
-    // if (numero == 1){
-    //     alert("Numero 1 encontrado")
-    // }
-    // else if(numero == 2){
-    //     alert("Numero 2 encontrado")
-    // }
-    // else{
-    //     alert("Outro numero")
-    // }
-    // _________________________________________________________________ 
+        <p class="d-flex justify-content-center align-items-center mb-1">2 - Faça um script que leia um número e mostre uma mensagem indicando se este número é par ou ímpar e se é positivo ou negativo.
+        </p>
+        <button onclick="calcula()" class="btn2 mb-4 btn btn-primary col-md-2" id="btn2">
+            Calcular
+        </button>
 
-    // let numero = Number (prompt("Digite um numero"))
-    // switch(numero){
-    //     case 1:
-    //         alert("Numero 1")
-    //         break;
-    
-    //     case 2: 
-    //         alert("Numero 2")
-    //         break;
-    //     case 3:
-    //         alert("Numero 3")
-    //     default:
-    //         alert("Outro numero")
-    // }
+        <p class="d-flex justify-content-center align-items-center mb-1">3 - Faça um script que leia o nome e a idade de uma pessoa e informe se a pessoa é maior de idade ou não. Exemplo: ‘João você tem 30 anos, é maior de idade’.
 
-    // for (let i = 0; i < 10; i++){
-    //     alert(i)
-    // }
-    // _________________________________________________________________ 
+        </p>
+        <button onclick="calcula()" class="btn3 mb-4 btn btn-primary col-md-2" id="btn3">
+            Calcular
+        </button>
 
-    // let inicio = 0;
-    // let fim = 10;
-    // for(; inicio < fim; inicio ++){
-    //     alert(inicio)
-    // }
-    // _________________________________________________________________  
-    // let numero = 0
-    // while (true){
-    //     if (numero == 5) {
-    //         break
-    //     }
-    //     numero++
-    //     console.log(numero)
+        <p class="d-flex justify-content-center align-items-center mb-1">4 - Faça um script que receba um número, calcule e mostre a tabuada desse número.
+        </p>
+        <button onclick="calcula()" class="btn4 mb-4 btn btn-primary col-md-2" id="btn4">
+            Calcular
+        </button>
 
-    // }
+        <p class="d-flex justify-content-center align-items-center mb-1">5 - Crie um script que leia três notas e imprima a média das notas e informe se o aluno está aprovado ou não. A média para aprovação é 6.
+        </p>
+        <button onclick="calcula()" class="btn5 mb-4 btn btn-primary col-md-2" id="btn5">
+            Calcular
+        </button>
 
-    // _________________________________________________________________ 
+        <p class="d-flex justify-content-center align-items-center mb-1">6 - Crie um novo script que leia um número que só pode ser de 1 a 7 e imprima os dias da semana sendo 1 = domingo e 7 = sábado.
+        </p>
+        <button onclick="calcula()" class="btn6 mb-4 btn btn-primary col-md-2" id="btn6">
+            Calcular
+        </button>
 
-    // while(true){
-    //     numero = prompt("Adivinha o numero que estou pensando.")
-    //     if (numero== 5){
-    //         alert("Parabens. Voce acertou!")
-    //         break
-    //     }
-    //     else if(numero < 5){
-    //         alert("Errou, numero muito baixo")
-    //     }
-    //     else{
-    //         alert("Errou, numero muito alto!")
-    //     }
-    // } 
+        <p class="d-flex justify-content-center align-items-center mb-1">7 - Faça um script que apresenta a soma dos números múltiplos de 3 entre 0 e 100. 
+        </p>
+        <button onclick="calcula()" class="btn7 mb-4 btn btn-primary col-md-2" id="btn7">
+            Calcular
+        </button>
 
-
-
-   
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-</script>
-<!-- <script src="exer1.js"></script>  -->
-<!-- <script src="exer2.js"></script>    -->
-<!-- <script src="exer3.js"></script>  -->
-<!-- <script src="exer4.js"></script>  -->
-<!-- <script src="exer5.js"></script> -->
-<!-- <script src="exer6.js"></script> -->
-<!-- <script src="exer7.js"></script> -->
-<script src="exer8.js"></script> 
-
-
-
-
+        <p class="d-flex justify-content-center align-items-center mb-1">8 - Faça um script que leia números até que seja digitado um número negativo, ao final mostrar a média dos números digitados. 
+        </p>
+        <button onclick="calcula()" class="btn8 mb-4 btn btn-primary col-md-2" id="btn8">
+            Calcular
+        </button>
+    </div>    
 </body>
-
-<footer></footer>
 </html>
+
+<!-- // alert("Helo World")
+// console.log("Ola mundo!")
+// let nome = prompt("Digite seu nome")
+// // alert("Seja bem vindo ao Curso de ADS " + nome)
+// alert(`${nome} seja bem vindo ao curso.!`)  
+// let num1= Number(prompt("Digite um numero"))
+// let num2= Number(prompt("Digite outro numero"))
+// let soma = num1 + num2;
+// alert(soma)
+
+// let numero = Number(prompt("Digite um numero"));
+// if (numero == 1){
+//     alert("Numero 1 encontrado")
+// }
+// else if(numero == 2){
+//     alert("Numero 2 encontrado")
+// }
+// else{
+//     alert("Outro numero")
+// }
+// _________________________________________________________________ 
+
+// let numero = Number (prompt("Digite um numero"))
+// switch(numero){
+//     case 1:
+//         alert("Numero 1")
+//         break;
+
+//     case 2: 
+//         alert("Numero 2")
+//         break;
+//     case 3:
+//         alert("Numero 3")
+//     default:
+//         alert("Outro numero")
+// }
+
+// for (let i = 0; i < 10; i++){
+//     alert(i)
+// }
+// _________________________________________________________________ 
+
+// let inicio = 0;
+// let fim = 10;
+// for(; inicio < fim; inicio ++){
+//     alert(inicio)
+// }
+// _________________________________________________________________  
+// let numero = 0
+// while (true){
+//     if (numero == 5) {
+//         break
+//     }
+//     numero++
+//     console.log(numero)
+
+// }
+
+// _________________________________________________________________ 
+
+// while(true){
+//     numero = prompt("Adivinha o numero que estou pensando.")
+//     if (numero== 5){
+//         alert("Parabens. Voce acertou!")
+//         break
+//     }
+//     else if(numero < 5){
+//         alert("Errou, numero muito baixo")
+//     }
+//     else{
+//         alert("Errou, numero muito alto!")
+//     }
+// }  -->
