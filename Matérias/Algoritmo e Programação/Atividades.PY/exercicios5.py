@@ -594,11 +594,11 @@
 
 # reais= float(input("Digite o valor em real \n"))
 
-<<<<<<< HEAD
+
 # conversao_dolar = reais /dolar
 # numero_formatado = "{:.2f}".format(conversao_dolar)
-=======
-----------------------------------------------------
+
+
 
 # import datetime as dt
 
@@ -707,6 +707,6 @@
    
 
 
->>>>>>> 59d0c73e68e02ad2656343e549e867505887c12f
+
 
 # print(f"O valor convertido para dolar fica: R$ {numero_formatado}" )
