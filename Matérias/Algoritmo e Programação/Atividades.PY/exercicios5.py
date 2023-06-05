@@ -598,6 +598,8 @@
 # conversao_dolar = reais /dolar
 # numero_formatado = "{:.2f}".format(conversao_dolar)
 
+# print(f"O valor convertido para dolar fica: R$ {numero_formatado}" )
+
 
 
 # import datetime as dt
@@ -709,4 +711,4 @@
 
 
 
-# print(f"O valor convertido para dolar fica: R$ {numero_formatado}" )
+
