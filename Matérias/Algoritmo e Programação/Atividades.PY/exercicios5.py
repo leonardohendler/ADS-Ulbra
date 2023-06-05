@@ -578,22 +578,23 @@
 
 # -------------------------------------------------------------- 
 
-import requests
+# import requests
 
-requisicao = requests.get("https://economia.awesomeapi.com.br/json/last/USD-BRL,EUR-BRL,BTC-BRL")
+# requisicao = requests.get("https://economia.awesomeapi.com.br/json/last/USD-BRL,EUR-BRL,BTC-BRL")
 
-print(requisicao)
+# # print(requisicao)
 
-dic_requisicao= requisicao.json()
+# dic_requisicao= requisicao.json()
 
-cambio = dic_requisicao["USDBRL"] ["bid"]
+# cambio = dic_requisicao["USDBRL"] ["bid"]
 
-dolar= float(cambio)
+# dolar= float(cambio)
 
-reais= float(input("Digite o valor em real"))
+# print(f"Valor do dolar: {dolar}")
 
-real = reais /dolar
+# reais= float(input("Digite o valor em real \n"))
 
-print(real)
+# conversao_dolar = reais /dolar
+# numero_formatado = "{:.2f}".format(conversao_dolar)
 
-
+# print(f"O valor convertido para dolar fica: R$ {numero_formatado}" )
