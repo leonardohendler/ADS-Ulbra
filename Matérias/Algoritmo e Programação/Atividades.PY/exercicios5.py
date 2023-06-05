@@ -593,11 +593,8 @@
 # print(f"Valor do dolar: {dolar}")
 
 # reais= float(input("Digite o valor em real \n"))
-
-
 # conversao_dolar = reais /dolar
 # numero_formatado = "{:.2f}".format(conversao_dolar)
-
 # print(f"O valor convertido para dolar fica: R$ {numero_formatado}" )
 
 
