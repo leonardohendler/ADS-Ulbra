@@ -681,29 +681,35 @@
 # import psutil
 # print("------------------------------------------------------------------------------------------")
 # print("-------------------------SISTEMA OPERACIONAL DO WINDOWS 10--------------------------------")
+# print()
 # print("Digite a opção desejavel para vizualizar uma informação do sistema operacional do Windows:")
+# print()
 # print("Digite [1] :Mémoria disponivel")
 # print("Digite [2] :Porcentagem de memória em uso")
 # print("Digite [3] :Disco livre")
+# print("Digite [4] :Encerrar")
+# print()
 # print("------------------------------------------------------------------------------------------")
 
+# while True: 
+#     opcao= int(input("Digite a opção desejada:\n"))
 
-# opcao= int(input("Digite a opção desejada:\n"))
 
-
-# if opcao == 1:
-#     mem= psutil.virtual_memory()
-#     print(f"Uso de memória disponivel:{mem.available}")
-# elif opcao == 2:
-#     mem= psutil.virtual_memory()
-#     print(f"Porcentagem de memória em uso: {mem.percent}%")
-# elif opcao == 3:
-#     disk = psutil.disk_usage("/")
-#     print(f"Uso de disco livre: {disk.free}")
-
-# elif opcao % 1 or opcao % 2 or opcao % 3:
-#     print("Digite uma das opções que constam no menu!")
-   
+#     if opcao == 1:
+#         mem= psutil.virtual_memory()
+#         print(f"Uso de memória disponivel:{mem.available}")
+#     elif opcao == 2:
+#         mem= psutil.virtual_memory()
+#         print(f"Porcentagem de memória em uso: {mem.percent}%")
+#     elif opcao == 3:
+#         disk = psutil.disk_usage("/")
+#         print(f"Uso de disco livre: {disk.free}")
+#     elif opcao == 4:
+#         print("Encerrando...")
+#         break
+#     elif opcao % 1 or opcao % 2 or opcao % 3:
+#         print("Digite uma das opções que constam no menu!")
+    
 
 
 
