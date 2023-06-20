@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TDE 20</title>
+</head>
+<body>
+    <h1>TDE 20</h1>
+    <h2>CALCULADORA DE NOTA</h2>
+
+    <form >
+        <label for="ap1">AP1</label>
+        <input type="number" id="ap1" onblur="verificaAp1()">
+        <label for="ap2">AP2</label>
+        <input type="number" id="ap2" onblur="verificaAp2()">
+        <label for="as">AS</label>
+        <input type="number" id="as" onblur="verificaAs()">
+        <button type="button" onclick="calcular()">Calcular</button>
+        <p id="nota"></p>
+
+
+        
+
+
+    </form>
+<script src="script.js"></script>    
+</body>
+</html>
