@@ -1,0 +1,74 @@
+body {
+    background-color: #000;
+    color:#fff;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+}
+
+.conteudo{
+    margin: 0 auto;
+    width: 100%;
+    max-width: 450px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-color: #2b2a2a;
+    padding: 55px;
+    border-radius: 12px;
+}
+
+.topo{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 25px;
+}
+
+.topo input{
+    width: 350px;
+    padding: 15px;
+    border-radius: 12px;
+    border: 1px solid #191818;
+    outline: none;
+    font-size: 1.2rem;
+    background-color: #191818;
+    color: #FFF;
+}
+
+.topo button{
+    width: 50px;
+    border-radius: 12px;
+    border: 1px solid #191818;
+    background-color: #191818;
+    color: #FFF;
+    
+   
+}
+
+.topo button:hover{
+    background-color: #1f1e1e;
+    cursor: pointer
+
+}
+
+.fundobranco{
+    background-color: white;
+}
+
+#sun{
+    border-radius: 15px;
+    padding: 5px;
+    margin: 10px;
+    text-align:right;
+}
+
+
+#moon{
+    border-radius: 15px;
+    padding: 5px;
+    margin: 10px;
+    text-align:right;
+}
+
+.icons{
+    text-align: end;
+}
