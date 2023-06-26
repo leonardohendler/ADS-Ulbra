@@ -1,0 +1,26 @@
+Introdução ao Desenvolvimento Web
+Prof.: Juliano Ramos Matos
+JavaScript
+
+Manipulando o DOM
+
+
+Projeto prático para manipulação do DOM.
+Projeto: Lista de Tarefas Interativa
+Neste projeto, você irá criar uma lista de tarefas interativa usando JavaScript para manipulação do DOM. A ideia é permitir que o usuário possa adicionar, excluir e marcar tarefas como concluídas, apresentando-as em diferentes seções da lista. Você também irá utilizar um arquivo CSS para estilizar, permitindo que o usuário possa adicionar e remover classes.
+Requisitos do projeto:
+Exibir uma seção para adicionar uma nova tarefa à lista.
+Ao adicionar uma tarefa, ela deve ser exibida em uma seção de tarefas pendentes.
+Cada tarefa deve ter a opção de ser excluída e marcada como concluída.
+Ao marcar uma tarefa como concluída, ela deve ser movida para uma seção de tarefas concluídas.
+Utilizar classes CSS para estilização das tarefas e permitir ao usuário adicionar ou remover classes para personalizar o visual.
+Passos sugeridos para implementação:
+Crie a estrutura básica do HTML, incluindo as seções para adicionar tarefas, tarefas pendentes e tarefas concluídas.
+Adicione um campo de input e um botão para adicionar uma nova tarefa.
+Implemente a função que será chamada ao adicionar uma nova tarefa. Essa função deve criar um novo elemento de lista (<li>) com o conteúdo da tarefa e adicioná-lo à seção de tarefas pendentes.
+Adicione botões de ação (excluir e marcar como concluída) a cada tarefa na seção de tarefas pendentes.
+Implemente as funções para excluir e marcar tarefas como concluídas. Ao realizar essas ações, você deverá manipular os elementos do DOM, como atributos e classes, para mover a tarefa para a seção correta.
+Crie um arquivo CSS para estilização das tarefas. Utilize classes para aplicar estilos específicos às tarefas.
+Adicione funcionalidades ao projeto para permitir que o usuário adicione e remova classes das tarefas, alterando o visual delas.
+Teste o projeto e verifique se todas as funcionalidades estão funcionando corretamente.
+
