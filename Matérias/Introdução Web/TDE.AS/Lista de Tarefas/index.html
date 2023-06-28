@@ -11,18 +11,24 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link href='https://unpkg.com/css.gg@2.0.0/icons/css/sun.css' rel='stylesheet'>
     <link href='https://unpkg.com/css.gg@2.0.0/icons/css/moon.css' rel='stylesheet'>
+    <link href='https://unpkg.com/css.gg@2.0.0/icons/css/trash.css' rel='stylesheet'>
+    <link href='https://unpkg.com/css.gg@2.0.0/icons/css/shape-circle.css' rel='stylesheet'>
 
 </head>
 
 <body>
     <div class="icons">
+
         <button id="sun" onclick="manipulandoClasseSun()">
             <i class="gg-sun"></i>
         </button>
         <button id="moon" onclick="manipulandoClasseMoon()">
             <i class="gg-moon"></i>
-        </button>
+        </button>    
     </div>
+
+    <h1 style="text-align: center; color:#d8d1d183; padding: 5px; margin: 5px;">Lista de Tarefas</h1>
+
     <div class="conteudo">
         <div class="topo">
             <input type="text" placeholder="Digite sua tarefa" id="tarefa">
@@ -31,17 +37,16 @@
             </button>
         </div>
 
-        <br><br><br><br><br>
+        <br><br><br>
         <div class="tasks">
             <ul id="pendentes">
-                <p style="color: #191818; font-size: 1.2rem; ">
-                    Tarefas pendentes:</p>
+                <p>Tarefas pendentes:</p>
             </ul>
 
-            <br><br><br><br><br>
+        <br><br><br>
 
             <ul id="concluidas">
-                <p style="color: #191818; font-size: 1.2rem;">Tarefas Concluídas:</p>
+                <p>Tarefas Concluídas:</p>
             </ul>
         </div>
     </div>

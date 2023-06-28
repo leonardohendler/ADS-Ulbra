@@ -6,17 +6,20 @@ body {
     font-size: 1rem;
 }
 
+
+.icons{
+    text-align: end;
+}
 .conteudo{
     margin: 0 auto;
     width: 100%;
     max-width: 450px;
-    margin-top: 50px;
+    margin-top: 20px;
     margin-bottom: 50px;
     background-color: #2b2a2a;
     padding: 55px;
     border-radius: 12px;
 }
-
 .topo{
     display: flex;
     justify-content: space-between;
@@ -69,6 +72,12 @@ body {
     text-align:right;
 }
 
-.icons{
-    text-align: end;
+
+ul {
+    background-color: #191818;
+    padding: 5px;
+    border-radius: 12px;
+    border: 1px solid #191818;
+    color: #d8d1d183;
+    font-size: 1.2rem;
 }
